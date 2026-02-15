@@ -1,0 +1,11 @@
+.strategy-detail {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.strategy-detail h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}

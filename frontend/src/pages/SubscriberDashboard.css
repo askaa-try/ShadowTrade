@@ -1,0 +1,112 @@
+.subscriber-dashboard {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.signals-feed h2, .subscriptions-panel h2 {
+  margin-bottom: 1.5rem;
+}
+
+.signal-card {
+  background: #1a1a2e;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  border-left: 4px solid;
+}
+
+.signal-card.buy {
+  border-left-color: #00ff88;
+}
+
+.signal-card.sell {
+  border-left-color: #ff4444;
+}
+
+.signal-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.signal-type {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.signal-card.buy .signal-type {
+  color: #00ff88;
+}
+
+.signal-card.sell .signal-type {
+  color: #ff4444;
+}
+
+.signal-time {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.signal-strategy {
+  color: #aaa;
+  margin-bottom: 0.5rem;
+}
+
+.signal-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin: 1rem 0;
+}
+
+.btn-execute {
+  background: #533483;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: 600;
+}
+
+.btn-execute:hover {
+  background: #6a4a9e;
+}
+
+.subscription-card {
+  background: #1a1a2e;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  border: 1px solid #333;
+}
+
+.sub-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.empty-state {
+  color: #666;
+  text-align: center;
+  padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+}

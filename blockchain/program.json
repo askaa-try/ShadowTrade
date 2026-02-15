@@ -1,0 +1,9 @@
+[program]
+name = "shadowtrade_strategy"
+version = "0.1.0"
+description = "Private trading strategy marketplace on Aleo"
+license = "MIT"
+
+[dependencies]
+
+[dev-dependencies]
