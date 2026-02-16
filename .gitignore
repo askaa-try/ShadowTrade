@@ -29,3 +29,10 @@ npm-debug.log*
 # Temporary
 *.tmp
 .cache/
+
+
+# Tokens and secrets
+*.token
+ghp_*
+PUSH_*.md
+*_TOKEN.md
