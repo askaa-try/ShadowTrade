@@ -1,11 +1,8 @@
 import { Link } from 'react-router-dom';
+import { WalletMultiButton } from '@provablehq/aleo-wallet-adaptor-react-ui';
 import './Navbar.css';
 
 function Navbar() {
-  const connectWallet = () => {
-    alert('Wallet connection coming soon!');
-  };
-
   return (
     <nav className="navbar">
       <div className="nav-container">
@@ -19,9 +16,7 @@ function Navbar() {
           <li><Link to="/dashboard" className="nav-link">Dashboard</Link></li>
         </ul>
 
-        <button className="connect-wallet" onClick={connectWallet}>
-          Connect Wallet
-        </button>
+        <WalletMultiButton />
       </div>
     </nav>
   );
