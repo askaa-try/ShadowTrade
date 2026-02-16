@@ -1,7 +1,6 @@
 .subscriber-dashboard {
   padding: 2rem;
-  max-width: 1400px;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .dashboard-grid {
@@ -9,6 +8,10 @@
   grid-template-columns: 2fr 1fr;
   gap: 2rem;
   margin-top: 2rem;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 2rem;
 }
 
 .signals-feed h2, .subscriptions-panel h2 {
