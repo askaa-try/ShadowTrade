@@ -1,0 +1,31 @@
+       Leo     19 statements before dead code elimination.
+       Leo     19 statements after dead code elimination.
+       Leo     The program checksum is: '[17u8, 141u8, 186u8, 7u8, 18u8, 38u8, 92u8, 172u8, 125u8, 103u8, 190u8, 113u8, 200u8, 205u8, 0u8, 84u8, 245u8, 231u8, 56u8, 33u8, 214u8, 37u8, 120u8, 124u8, 109u8, 73u8, 212u8, 54u8, 206u8, 196u8, 145u8, 167u8]'.
+       Leo ✅ Compiled 'shadowtrade.aleo' into Aleo instructions.
+
+📢 Using the following consensus heights: 0,2950000,4800000,6625000,6765000,7600000,8365000,9173000,9800000,10525000,11952000,12669000
+  To override, pass in `--consensus-heights` or override the environment variable `CONSENSUS_VERSION_HEIGHTS`.
+
+Attempting to determine the consensus version from the latest block height at https://api.explorer.provable.com/v1...
+
+🛠️  Deployment Plan Summary
+──────────────────────────────────────────────
+🔧 Configuration:
+  Private Key:        APrivateKey1zkpD8Pa9ra3f...
+  Address:            aleo1j568t8ar9desyshjlvr...
+  Endpoint:           https://api.explorer.provable.com/v1
+  Network:            testnet
+  Consensus Version:  12
+
+📦 Deployment Tasks:
+  • shadowtrade.aleo  │ priority fee: 0  │ fee record: no (public fee)
+
+⚙️ Actions:
+  • Transaction(s) will NOT be printed to the console.
+  • Transaction(s) will NOT be saved to a file.
+  • Transaction(s) will NOT be broadcast to the network.
+──────────────────────────────────────────────
+
+
+Error [ECLI0377042]: Failed to prompt user: IO error: not a terminal
+
